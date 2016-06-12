@@ -10,7 +10,7 @@ var DisplayContainer = React.createClass({
     },
     getInitialState: function getInitialState() {
         return {
-            value: '# Style your text like a pro  \n## Create readme files that ' + 'don\'t look like crap  \n### __Be__ **bold**  \n#### _Show_ *emphasis*\n\n' + '![embed images](https://goo.gl/KTFRD4) ![quincy](https://goo.gl/doXmnN)' + '\nEnd a line with 2 spaces  \nto start a new line.  \n\nWrite lists:' + '\n1. item1\n2. item2\n3. item3\n\nWith ease:\n* easy\n* normal\n* ' + 'hard\n\n```\ntype.code(inMarkdown) {\n  likeThis();\n}\n```\n\n' + 'Take care,  \n*[bnoden](https://freecodecamp.com/bnoden)*'
+            value: '# Style your text like a pro  \n## Create readme files that ' + 'don\'t look like crap  \n### __Be__ **bold**  \n#### _Show_ *emphasis*\n\n' + '![embed images](img/addImage.png) ![quincy](img/quincy.gif)' + '\nEnd a line with 2 spaces  \nto start a new line.  \n\nWrite lists:' + '\n1. item1\n2. item2\n3. item3\n\nWith ease:\n* easy\n* normal\n* ' + 'hard\n\n```\ntype.code(inMarkdown) {\n  likeThis();\n}\n```\n\n' + 'Take care,  \n*[bnoden](https://freecodecamp.com/bnoden)*'
         };
     },
     rawMarkup: function rawMarkup(value) {
