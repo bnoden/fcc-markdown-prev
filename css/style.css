@@ -1,0 +1,23 @@
+body {
+  background: #d0ecff;
+  color: #1c1c1c;
+}
+
+#main-title {
+  padding-left: 15px;
+  background: #1c1c1c;
+  font-family: "Comfortaa", cursive;
+  color: #6aa8dd;
+}
+
+#container {
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.md-input {
+  background: #1c1c1c;
+  color: #bfcacc;
+  width: 100%;
+  border-radius: 8px;
+}
